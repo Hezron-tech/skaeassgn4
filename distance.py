@@ -7,3 +7,5 @@ def dist_two_points(loc1,loc2):
     print(loc_2)
  
     return {"distance" :great_circle(loc_1, loc_2).km}
+
+print(dist_two_points('cairo','nairobi'))    
